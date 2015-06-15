@@ -4,7 +4,7 @@ class PinsController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
 
   def index
-    @pins = Pin.all.reverse_order
+    @pins = Pin.all.reverse_order.paginate(:page => params[:page], :per_page => 8)
   end
 
   def show
