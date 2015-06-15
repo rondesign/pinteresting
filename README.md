@@ -1,4 +1,3 @@
-# One Month Rails
+# Pinterest Clone
 
-This is the pinteresting sample application for
-[*One Month Rails*](http://onemonthrails.com)
+This is a Pinterest like site built with Ruby on Rails.
